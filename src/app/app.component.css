@@ -1,8 +1,8 @@
 .box {
   width: 300px;
-  border: 5px  rgb(153, 153, 153);
   padding: 50px;
   margin: 20px;
+  background: rgb(155, 155, 155);
 }
 
 .center {

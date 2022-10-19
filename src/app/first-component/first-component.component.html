@@ -1,7 +1,12 @@
-<div>
-  <button (click)="decrease()">-</button>
+<!-- <div>
+  <button   text="+" (click)="decrease()">+</button  >
   {{count}}
-  <button (click)="increase()">+</button>
+  <button  text="-" (click)="increase()">-</button  >
+</div> -->
+
+
+<div>
+  <dx-button  text="-" (click)="decrease()"></dx-button >
+  {{count}}
+  <dx-button text="+" (click)="increase()"></dx-button >
 </div>
-
-
